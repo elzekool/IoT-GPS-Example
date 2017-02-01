@@ -1,0 +1,14 @@
+{
+    "name": "elzekool/gps-iot-webclient",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Elze Kool",
+            "email": "info@kooldevelopment.nl"
+        }
+    ],
+    "require": {
+        "stej/php-particle": "^0.0.2",
+        "symfony/dotenv": "3.3.x-dev"
+    }
+}

@@ -1,0 +1,9 @@
+version: '2'
+services:
+    apache:
+        build: php
+        volumes:
+            - "${PWD}/webroot:/var/www/html/"
+        ports:
+            - "83:80"
+
